@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Local News Rankings</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link type="text/css" href="index.css" rel="stylesheet"/>
+
+</head>
+<body>
+	<div id="container">
+		<div id="intro-section">
+			<h1 id="intro-title">Where does your city rank in various local news metrics?</h1>
+			<p id="intro-text">Text</p>
+		</div>
+		<div id="options-buttons">
+			<button id="button1-providers">Providers & pathways</button>
+			<button id="button2-topics">Local news topics</button>
+			<button id="button3-connection">Connection to community</button>
+			<button id="button4-assessment">Assessment of local media</button>
+		</div>
+		<div id="metrics-chart-wrapper">
+			<div id="options-metrics">
+				<ul class="metrics-mainlist">
+					<li class="item-mainlist">Preferred pathway to local news</li>
+					<ul class="metrics-sublist">
+						<li class="item-sublist">TV</li>
+						<li class="item-sublist">News website/app</li>
+						<li class="item-sublist">Print</li>
+						<li class="item-sublist">Radio</li>
+						<li class="item-sublist">Social media</li>
+					</ul>
+				</ul>
+			</div>
+			<div id="chart">
+				<svg id="svg-chart"></svg>
+			</div>
+		</div>
+	</div>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+	<script src="index.js"></script>
+
+</body>
+</html>
